@@ -104,7 +104,6 @@ class _ListPageState extends State<ListPage> {
             );
           }
 
-          // DATA KOSONG
           if (!snapshot.hasData ||
               snapshot.data!.isEmpty) {
             return const Center(
@@ -212,7 +211,6 @@ class _ListPageState extends State<ListPage> {
                         ),
                       ),
 
-                      // CONTENT
                       Expanded(
                         child: Padding(
                           padding:

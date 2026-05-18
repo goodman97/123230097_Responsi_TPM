@@ -5,10 +5,7 @@ import '../models/menu_model.dart';
 class ApiService {
   static const String baseUrl =
       'https://www.themealdb.com/api/json/v1/1';
-
-  // ================================
-  // GET LIST MEALS BY CATEGORY
-  // ================================
+  //mendapatkan data makanan berdasarkan kategori
   static Future<List<MealModel>> fetchMeals(
     String category,
   ) async {

@@ -3,7 +3,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../pages/home_page.dart';
 import '../pages/login_page.dart';
 
-/// Entry point aplikasi Flutter.
 void main() {
   runApp(const MyApp());
 }
@@ -11,7 +10,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  /// Mengecek apakah user sudah login menggunakan SharedPreferences.
   Future<bool> checkLogin() async {
     final prefs = await SharedPreferences.getInstance();
     return prefs.getBool('isLogin') ?? false;

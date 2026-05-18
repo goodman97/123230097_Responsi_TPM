@@ -48,7 +48,7 @@ class _RegisterPageState extends State<RegisterPage> {
               controller: passwordController,
               obscureText: true,
               decoration: const InputDecoration(
-                labelText: 'Password',
+                labelText: 'Password buat responsi ambil 097',
               ),
             ),
             const SizedBox(height: 20),

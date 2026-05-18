@@ -249,7 +249,6 @@ class _ListPageState extends State<ListPage> {
                                 height: 12,
                               ),
 
-                              // COUNTRY
                               Row(
                                 children: [
                                   const Icon(
@@ -283,32 +282,6 @@ class _ListPageState extends State<ListPage> {
                                   ),
                                 ],
                               ),
-
-                              /*const SizedBox(
-                                height: 10,
-                              ),
-
-                              // ID
-                              Container(
-                                padding:
-                                    const EdgeInsets.symmetric(
-                                  horizontal:
-                                      12,
-                                  vertical: 6,
-                                ),
-
-                                decoration:
-                                    BoxDecoration(
-                                  color: Colors
-                                      .black,
-
-                                  borderRadius:
-                                      BorderRadius.circular(
-                                    30,
-                                  ),
-                                ),
-
-                              ),*/
 
                               const SizedBox(
                                 height: 14,
